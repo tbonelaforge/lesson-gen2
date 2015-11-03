@@ -24,4 +24,4 @@ Lesson.class: Lesson.java Equation.class
 
 clean:
 	rm -f generate
-	rm *.class
+	rm -f *.class
