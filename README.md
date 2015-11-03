@@ -13,4 +13,4 @@ USAGE INSTRUCTIONS:
 1. clone the repo
 2. cd lesson-gen2
 3. make
-4. ./generate 7 2
+4. ./generate 20 6
