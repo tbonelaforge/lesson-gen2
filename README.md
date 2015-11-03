@@ -7,3 +7,10 @@ For example, if you have the cards 1, 2, 3, 4, 5, 6, and 7, and you wish to gene
 3 + 4 = 7
 
 with the card for "2" not being used.
+
+USAGE INSTRUCTIONS:
+
+1. clone the repo
+2. cd lesson-gen2
+3. make
+4. ./generate 7 2
