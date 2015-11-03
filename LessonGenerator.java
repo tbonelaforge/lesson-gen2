@@ -12,7 +12,7 @@ class LessonGenerator {
 
     public LessonGenerator(int n, int k) throws Exception {
         if (k * Equation.howManyElements() > n) {
-            throw new Exception(String.format("Cannot pick %d %d - element equations using only %d numbers", k, Equation.howManyElements()));                                       
+            throw new Exception(String.format("Cannot pick %d %d-element equations using only %d numbers", k, Equation.howManyElements(), n));                                       
         }
         this.n = n;
         this.k = k;
